@@ -1,0 +1,61 @@
+body{
+  background-color: aqua;
+}
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+#root{
+  margin: 0%;
+  padding: 0%;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 30px;
+  width: 100%;
+}
+.personal{
+  display: flex;
+  gap: 10px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10% 5%;
+  background-color: rgb(1, 1, 85);
+  color: antiquewhite;
+  margin-top: 0%;
+  width: 100%;
+}
+.personal:hover{
+ position: relative;
+ cursor: pointer;
+ background-color: black;
+ top: -20px;
+}
+.pic img{
+  border: 1px solid black;
+  border-radius: 100%;
+  padding: 10px;
+  background-color: aqua;
+  position: relative;
+  top: 20px;
+}
+.pic:hover{
+  transform: rotateY(-360px);
+  cursor: pointer;
+}
+.details p:nth-child(1){
+  font-style: italic;
+  font-weight: bold;
+}
+.details p:nth-child(3){
+  font-style: oblique;
+  font-weight: bold;
+}
+.details p:hover{
+  font-size: 30px;
+  transition: font-size 1s;
+}
+marquee{
+  width: 100%;
+}
